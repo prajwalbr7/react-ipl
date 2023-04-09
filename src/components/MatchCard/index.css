@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.list-container-match-card {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.list-img-sizing {
+  width: 130px;
+  height: 150px;
+}
+.list-heading-style-team-card {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  color: #ffffff;
+}
+.list-para-style-team-card {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+.list-label-style {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+}
+.label-color1 {
+  color: #e31a1a;
+}
+.label-color2 {
+  color: #18ed66;
+}

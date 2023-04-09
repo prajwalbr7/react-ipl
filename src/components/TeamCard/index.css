@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.link-style {
+  text-decoration: none;
+}
+.list-team-card {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #ffffff33;
+  border: solid 2px #ffffff33;
+  border-radius: 6px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+.img-team-card-size {
+  height: 130px;
+  width: 140px;
+}
+.para-team-card {
+  font-family: 'Bree Serif';
+  font-size: 23px;
+  font-weight: 500;
+  color: #ffffff;
+
+  width: 200px;
+
+  text-align: center;
+}
