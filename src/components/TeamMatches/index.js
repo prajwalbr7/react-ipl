@@ -57,6 +57,9 @@ class TeamMatches extends Component {
   render() {
     const {TeamMatchCard, isLoading} = this.state
     const {teamBannerUrl, latestMatchDetails, recentMatches} = TeamMatchCard
+    const {match} = this.props
+    const {params} = match
+    const {id} = params
     return (
       <div>
         {isLoading ? (
@@ -69,10 +72,10 @@ class TeamMatches extends Component {
             />
           </div>
         ) : (
-          <div className="teamMatchesContainer">
+          <div className={`teamMatchesContainer ${id}`}>
             <img
               src={teamBannerUrl}
-              alt="img"
+              alt="team banner"
               className="teamMatch-Img-Sizing"
             />
             <h1 className="teamMatch-heading-style">Latest Matches</h1>
